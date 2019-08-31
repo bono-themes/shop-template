@@ -5,3 +5,35 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
+
+/* 1. Header */
+header nav .support-title,
+header nav .support-value {
+    display: block;
+    text-transform: uppercase;
+}
+
+header nav .support-title {
+    font-size: 12px;
+}
+
+header nav .support-value {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+}
+
+header .header-advisor .list-group > .list-group-item {
+    border: none;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+header .dropdown > button {
+    padding: 0;
+    font-size: 13px;
+}
