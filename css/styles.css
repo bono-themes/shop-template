@@ -239,3 +239,60 @@ header .dropdown > button {
     text-align: right;
     font-size: 24px;
 }
+
+/* 6. Products */
+
+.products {
+    
+}
+
+.products .product-col {
+    text-align: center;
+    border: 1px solid #f3f3f3;
+    padding: 23px;
+}
+
+.products .product-col .product-name {
+    display: block;
+    min-height: 46px;
+}
+
+.products .product-col .product-image {
+    display: block;
+}
+
+.products .product-col .product-category {
+    display: block;
+    font-size: 12px;
+    color: #b9bfc5;
+}
+
+.products .product-col .product-cart-btn {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+.products .product-col .product-meta {
+    margin-top: 18px;
+}
+
+.products .product-col .product-meta > span {
+    display: inline-block;
+}
+
+.products .product-col .product-meta .product-price {
+    text-align: left;
+    float: left;
+}
+
+.products .product-col .product-meta .product-actions {
+    text-align: right;
+    float: right;
+}
+
+.products .product-col .product-meta .product-actions a {
+    color: #5bbeb9;
+}
