@@ -2,8 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
+/* Globals */
 body {
     font-family: 'Lato', sans-serif;
+}
+
+.btn-success,
+.bg-success {
+    background-color: #5bbeb9 !important;
+    border: none;
 }
 
 
@@ -101,7 +108,7 @@ header .dropdown > button {
 .navigation .form-control {
     display: flex;
     flex-grow: 1;
-    border-color: #28a745;
+    border-color: #5bbeb9;
     border-right: none;
 }
 
