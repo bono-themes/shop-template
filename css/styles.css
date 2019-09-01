@@ -122,3 +122,13 @@ header .dropdown > button {
 }
 
 
+/* 3. Carousel */
+.carousel {
+    margin-top: 10px;
+}
+
+.carousel .carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
