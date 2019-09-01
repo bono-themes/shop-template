@@ -132,3 +132,47 @@ header .dropdown > button {
     height: 100%;
 }
 
+
+/* 4. Guide */
+.guide {
+    margin-top: 10px;
+}
+
+.guide h2 {
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 30px;
+    margin-top: 46px;
+}
+
+.guide .guide-col {
+    padding: 27px;
+    text-align: center;
+}
+
+.guide .guide-col .guide-icon-wrapper {
+    display: inline-block;
+}
+
+.guide .guide-col .guide-description-wrapper {
+    display: block;
+}
+
+.guide .guide-col .guide-icon-wrapper {
+    background: #5bbeb9;
+    color: #fff;
+    padding: 19px;
+    border-radius: 100%;
+}
+
+.guide .guide-col .guide-description-wrapper .guide-step {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-top: 7px;
+}
+
+.guide .guide-col .guide-description-wrapper p {
+    font-size: 13px;
+}
