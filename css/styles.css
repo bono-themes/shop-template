@@ -296,3 +296,21 @@ header .dropdown > button {
 .products .product-col .product-meta .product-actions a {
     color: #5bbeb9;
 }
+
+/* 7. Footer */
+
+footer {
+    padding-top: 50px;
+    margin-top: 60px;
+    border-top: 1px solid #eaeaea;
+}
+
+footer ul li a,
+footer ul li a:hover {
+    color: inherit;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
