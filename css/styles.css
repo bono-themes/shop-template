@@ -176,3 +176,19 @@ header .dropdown > button {
 .guide .guide-col .guide-description-wrapper p {
     font-size: 13px;
 }
+
+
+/* 4. Payments */
+.payments {
+    margin-top: 60px;
+    margin-bottom: 39px;
+}
+
+.payments .payments-title {
+    display: block;
+    margin-top: 11px;
+    font-size: 17px;
+    color: gray;
+    text-transform: uppercase;
+}
+
