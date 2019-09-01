@@ -13,6 +13,12 @@ body {
     border: none;
 }
 
+.section-title {
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 30px;
+    margin-top: 46px;
+}
 
 /* 1. Header */
 header nav .support-title,
@@ -138,13 +144,6 @@ header .dropdown > button {
     margin-top: 10px;
 }
 
-.guide h2 {
-    text-transform: uppercase;
-    font-size: 17px;
-    margin-bottom: 30px;
-    margin-top: 46px;
-}
-
 .guide .guide-col {
     padding: 27px;
     text-align: center;
@@ -192,3 +191,51 @@ header .dropdown > button {
     text-transform: uppercase;
 }
 
+
+/* 5. Blog */
+.blog {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-item * {
+    position: relative;
+    color: #fff;
+}
+
+.blog-item {
+    position: relative;
+    height: 310px;
+}
+
+.blog-item:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(107, 196, 192, 0.7);
+}
+
+.blog-item .blog-description {
+    position: absolute;
+    bottom: 0;
+    padding: 24px;
+}
+
+.blog-item .blog-description .blog-title {
+    display: block;
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.blog-item .blog-description .blog-item-date {
+}
+
+.blog-item .blog-description .blog-item-views {
+    display: block;
+    text-align: right;
+    font-size: 24px;
+}
