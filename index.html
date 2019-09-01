@@ -34,7 +34,7 @@
         </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="img/logo.png">
@@ -60,6 +60,57 @@
         </div>
     </nav>
 </header>
+
+<section class="navigation bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="dropdown my-2 my-lg-3">
+                  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Categories</button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Computers</a>
+                    <a class="dropdown-item" href="#">Smartphones</a>
+                    <a class="dropdown-item" href="#">Monoblocks</a>
+                    <a class="dropdown-item" href="#">Notebooks</a>
+                    <a class="dropdown-item" href="#">Cameras</a>
+                  </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4">
+                <form class="form-inline my-2 my-lg-3">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+
+            <div class="col-lg-5">
+                <ul class="list-group list-group-horizontal">
+                  <li class="list-group-item">
+                    <a href="#">
+                        <i class="fas fa-user-lock fa-2x"></i>
+                        <span class="navigation-icon-wrapper">
+                            <span class="navigation-icon-head">Account</span>
+                            <span class="navigation-icon-description">Enter</span>
+                        </span>
+                    </a>
+                  </li>
+
+                  <li class="list-group-item">
+                    <a href="#">
+                        <i class="fas fa-shopping-cart fa-2x"></i>
+                        <span class="navigation-icon-count">0</span>
+                        <span class="navigation-icon-wrapper">
+                            <span class="navigation-icon-head">Cart</span>
+                            <span class="navigation-icon-description">No products</span>
+                        </span>
+                    </a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
