@@ -269,6 +269,7 @@ header .dropdown > button {
 .products .product-col .product-name {
     display: block;
     min-height: 46px;
+    color: inherit;
 }
 
 .products .product-col .product-image {
