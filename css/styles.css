@@ -20,6 +20,20 @@ body {
     margin-top: 46px;
 }
 
+/* Pagination */
+.page-link {
+    color: #5bbeb9;
+}
+
+.page-link:hover {
+    color: #6bb5b1;
+}
+
+.page-item.active .page-link {
+    background-color: #5bbeb9;
+    border-color: #5bbeb9;
+}
+
 /* 1. Header */
 header nav .support-title,
 header nav .support-value {
