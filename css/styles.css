@@ -383,6 +383,12 @@ footer ul li {
     margin-right: 5px;
 }
 
+.filter-col .list-sizes li a:hover,
+.filter-col .list-sizes li.active a {
+    background: grey;
+    color: #fff;
+}
+
 /* 9. Sorter */
 .sorter .short-by {
     float: right;
