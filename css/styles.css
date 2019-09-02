@@ -424,3 +424,45 @@ footer ul li {
     cursor: pointer;
     border-radius: 0px;
 }
+
+/* 10. Page-cover */
+.page-cover {
+    min-height: 226px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    padding-top: 63px;
+}
+
+.page-cover * {
+    position: relative;
+}
+
+.page-cover:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(91, 190, 185, 0.4);
+}
+
+.page-cover .breadcrumb {
+    background: transparent;
+    display: inline-flex;
+}
+
+.page-cover .breadcrumb-item+.breadcrumb-item::before,
+.page-cover .breadcrumb-item.active,
+.page-cover .breadcrumb-item a {
+    color: #fff;
+}
+
+/* 11. Page content */
+.content {
+    padding-top: 32px;
+    font-size: 14px;
+    line-height: 26px;
+}
