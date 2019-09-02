@@ -187,6 +187,7 @@ header .dropdown > button {
     font-weight: bold;
     display: block;
     margin-top: 7px;
+    margin-bottom: 7px;
 }
 
 .guide .guide-col .guide-description-wrapper p {
