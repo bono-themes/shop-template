@@ -379,3 +379,33 @@ footer ul li {
     border-radius: 0px;
     margin-right: 5px;
 }
+
+/* 9. Sorter */
+.sorter .short-by {
+    float: right;
+    margin: 0;
+    padding-left: 12px
+}
+
+.sorter label {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+
+.sorter .short-by select {
+    border: 0 none;
+    display: inline-block;
+    font-size: 14px;
+    height: 30px;
+    margin: 0;
+    padding: 0 14px;
+    border: 1px #e8e8e8 solid;
+    padding-right: 28px;
+    text-indent: 0.01px;
+    cursor: pointer;
+    border-radius: 0px;
+}
