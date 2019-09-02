@@ -267,6 +267,11 @@ header .dropdown > button {
     text-align: center;
     border: 1px solid #f3f3f3;
     padding: 23px;
+    margin-bottom: 21px;
+}
+
+.products .product-col:hover {
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.05);
 }
 
 .products .product-col .product-name {
