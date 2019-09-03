@@ -23,6 +23,11 @@ body {
     margin-top: 46px;
 }
 
+.shadowed {
+    border-radius: 4px;
+    box-shadow: 0 0 30px rgba(0,0,0,.08);
+}
+
 /* Pagination */
 .page-link {
     color: #5bbeb9;
