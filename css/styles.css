@@ -526,3 +526,35 @@ footer ul li {
     font-size: 16px;
 }
 
+/* 13. Wishlist */
+
+.col-wishlist {
+    
+}
+
+.col-wishlist table td {
+    vertical-align: middle;
+}
+
+.col-wishlist table img {
+    width: 40%;
+}
+
+.col-wishlist .btn-add {
+    display: block;
+    color: #fff;
+    font-size: 13px;
+    border: none;
+    border-radius: 0;    
+}
+
+.col-wishlist .btn-remove {
+    color: #b5a8a8;
+    display: block;
+    margin-top: 11px;
+}
+
+.col-wishlist .btn-remove:hover {
+    text-decoration: none;
+}
+
