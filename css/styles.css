@@ -558,3 +558,43 @@ footer ul li {
     text-decoration: none;
 }
 
+
+/* 14. Product **/
+.product {
+    
+}
+
+.product .product-name {
+    display: block;
+    font-size: 27px;
+    margin-top: 19px;
+    margin-bottom: 10px;
+}
+
+.product .product-price {
+    display: block;
+    font-size: 21px;
+    color: #5bbeb9;
+    letter-spacing: 4px;
+    margin-bottom: 18px;
+}
+
+.product .product-description {
+    
+}
+
+.product .product-actions {
+    margin-bottom: 23px;
+}
+
+.product .product-actions .btn-cart {
+    border-radius: 0;
+}
+
+.product .product-actions .btn-wishlist {
+    font-size: 27px;
+    position: relative;
+    top: 7px;
+    left: 19px;
+    color: indianred;
+}
