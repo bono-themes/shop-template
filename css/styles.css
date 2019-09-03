@@ -598,3 +598,31 @@ footer ul li {
     left: 19px;
     color: indianred;
 }
+
+.product .product-specification {
+    margin-top: 45px;
+}
+
+.product .product-specification h2 {
+    font-size: 24px;
+}
+
+.product .product-specification table {
+    color: #9e9e9e;
+}
+
+.product .product-specification table tr td:first-child {
+    background: url(../img/table-dots.png) 100% 60% repeat-x;
+}
+
+.product .product-specification table tr td span {
+    background: #fff;
+    display: inline-block;
+    margin-right: 17px;
+    padding-right: 5px;
+}
+
+.product .product-specification table td {
+    padding: 9px 0px;
+}
+
