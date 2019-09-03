@@ -561,7 +561,7 @@ footer ul li {
 
 /* 14. Product **/
 .product {
-    
+    padding-top: 14px;
 }
 
 .product .product-name {
@@ -626,3 +626,14 @@ footer ul li {
     padding: 9px 0px;
 }
 
+.product .breadcrumb {
+    background: transparent;
+}
+
+.product .breadcrumb > .breadcrumb-item > a {
+    color: #5bbeb9;
+}
+
+.product .breadcrumb-item+.breadcrumb-item::before {
+    color: #e1e8ef;
+}
