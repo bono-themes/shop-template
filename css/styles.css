@@ -637,3 +637,13 @@ footer ul li {
 .product .breadcrumb-item+.breadcrumb-item::before {
     color: #e1e8ef;
 }
+
+/* 15. FAQ */
+.faq {
+    
+}
+
+.faq a {
+    color: inherit;
+}
+
