@@ -665,3 +665,28 @@ footer ul li {
 .faq a {
     color: inherit;
 }
+
+
+/* 16. Form */
+.form {
+    
+}
+
+.form a {
+    color: inherit;
+}
+
+.form .form-control {
+    background: #f8f9fa;
+    border: 0;
+    border-radius: 0;
+    font-size: 12px;
+}
+
+.form .form-control:focus {
+    box-shadow: 0 0 0 1px rgb(91, 190, 185);
+}
+
+.form .btn {
+    border-radius: 0;
+}
