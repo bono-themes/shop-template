@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>Checkout</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<header>
+    <div class="header-advisor">
+        <div class="container">
+            <ul class="list-group list-group-horizontal justify-content-end">
+              <li class="list-group-item"><a href="#">Check order status</a></li>
+              <li class="list-group-item bg-success text-white"><a href="#"><i class="fas fa-phone-volume"></i> Request a call</a></li>
+              <li class="list-group-item">
+                <div class="dropdown">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    EN
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">German</a>
+                    <a class="dropdown-item" href="#">Spanish</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item"><a href="#">Wishlist</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/logo.png">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active"><a class="nav-link" href="#">Discounts <span class="sr-only">(current)</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Delivery</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Help and support</a></li>
+            </ul>
+
+            <span class="navbar-text">
+                <span class="support-title">Need help? Call us at</span>
+                <span class="support-value">+ 1 212 000 00 00</span>
+            </span>
+          </div>
+        </div>
+    </nav>
+</header>
+
+<section class="navigation bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="dropdown my-2 my-lg-3">
+                  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Categories</button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Computers</a>
+                    <a class="dropdown-item" href="#">Smartphones</a>
+                    <a class="dropdown-item" href="#">Monoblocks</a>
+                    <a class="dropdown-item" href="#">Notebooks</a>
+                    <a class="dropdown-item" href="#">Cameras</a>
+                  </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4">
+                <form class="form-inline my-2 my-lg-3">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+
+            <div class="col-lg-5">
+                <ul class="list-group list-group-horizontal">
+                  <li class="list-group-item">
+                    <a href="#">
+                        <i class="fas fa-user-lock fa-2x"></i>
+                        <span class="navigation-icon-wrapper">
+                            <span class="navigation-icon-head">Account</span>
+                            <span class="navigation-icon-description">Enter</span>
+                        </span>
+                    </a>
+                  </li>
+
+                  <li class="list-group-item">
+                    <a href="#">
+                        <i class="fas fa-shopping-cart fa-2x"></i>
+                        <span class="navigation-icon-count">0</span>
+                        <span class="navigation-icon-wrapper">
+                            <span class="navigation-icon-head">Cart</span>
+                            <span class="navigation-icon-description">No products</span>
+                        </span>
+                    </a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content form">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <form autocomplete="off">
+                  <fieldset>
+                    <legend>Checkout</legend>
+
+                    <p>Please fill this form and we'll contact you as soon as possible to confirm your order. </p>
+
+                    <div class="form-group">
+                        <label>Full name</label>
+                        <input type="text" class="form-control" placeholder="Your full name" />
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                              <label>Phone</label>
+                              <input type="text" class="form-control" placeholder="Your phone number" />
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                              <label>Email</label>
+                              <input type="text" class="form-control" placeholder="Your email" />
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Address</label>
+                        <textarea class="form-control" placeholder="Type full address" rows="4"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Additional wishes</label>
+                        <textarea class="form-control" placeholder="Your additional comments, if any" rows="4"></textarea>
+                    </div>
+
+                    <p><button type="submit" class="btn btn-success">Finish my order</button></p>
+                  </fieldset>
+                </form>
+            </div>
+            
+            <div class="col-lg-6">
+                <!-- Current items available in cart -->
+                <div class="--cart-dropdown">
+                    <div class="container">
+                        <table class="table">
+                            <tbody>
+                                <!-- Single product item -->
+                                <tr>
+                                    <td>
+                                        <a href="#"><img alt="Xiaomi Redmi Note 7 4/128GB" class="img-fluid" src="assets/img/product/product-1.jpg" /></a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#">Xiaomi Redmi Note 7 4/128GB</a>
+                                        <p class="text-muted">1x  / 224$</p>
+                                    </td>
+                                    
+                                    <td>
+                                        <a class="text-danger" data-basket-button="dropdown" href="#"><i class="fas fa-ban"></i></a>
+                                    </td>
+                                </tr>
+
+                                <!-- Single product item -->
+                                <tr>
+                                    <td>
+                                        <a href="#"><img alt="HP Omen 25 LED Gaming" class="img-fluid" src="assets/img/product/product-2.jpg" /></a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#">HP Omen 25 LED Gaming</a>
+                                        <p class="text-muted">1x  / 224$</p>
+                                    </td>
+                                    
+                                    <td>
+                                        <a class="text-danger" data-basket-button="dropdown" href="#"><i class="fas fa-ban"></i></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tfoot>
+                                <tr>
+                                    <td>Subtotal</td>
+                                    <td class="text-right">
+                                        <strong>224</strong><span class="text-muted">$</span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Total items</td>
+                                    <td class="text-right">
+                                        <strong>2</strong>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <ul class="list-inline">
+                    <li> New York, Brooklyn, Jason Avenue 12</li>
+                    <li> +1 212 000 00 00</li>
+                    <li> info@domain.com</li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4">
+                <ul class="list-inline">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Public offer</a></li>
+                    <li><a href="#">Payment and delivery information</a></li>
+                    <li><a href="#">Returns</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="col-subscribe">
+                    <p>Get newsletters about our stokes and updates. We'll never share your email with anyone else</p>
+
+                    <form class="form-inline my-2 my-lg-3">
+                        <input class="form-control" type="email" placeholder="Your email" />
+                        <button class="btn btn-success my-2 my-sm-0" type="submit">Go</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <hr />
+        
+        <p>Copyright 2019 Your Store. All rights reserved.</p>
+        
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
+
+
