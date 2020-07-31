@@ -33,7 +33,7 @@ body {
 
 table td,
 table th {
-    vertical-align: middle;
+    vertical-align: middle !important;
 }
 
 .btn-success,
