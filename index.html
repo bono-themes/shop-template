@@ -97,14 +97,88 @@
                   </li>
 
                   <li class="list-group-item">
-                    <a href="#">
+                    <a href="#" data-button="cart-dropdown-opener">
                         <i class="fas fa-shopping-cart fa-2x"></i>
-                        <span class="navigation-icon-count">0</span>
+                        <span class="navigation-icon-count">2</span>
                         <span class="navigation-icon-wrapper">
                             <span class="navigation-icon-head">Cart</span>
-                            <span class="navigation-icon-description">No products</span>
+                            <span class="navigation-icon-description">Click to view products</span>
                         </span>
                     </a>
+
+                    <!-- Current items available in cart -->
+                    <div class="cart-dropdown">
+                        <!-- Case 1 : When we have items in our car --->
+                        <div class="container">
+                            <table class="table">
+                                <tbody>
+                                    <!-- Single product item -->
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img class="img-fluid" src="img/product/product-1.jpg" /></a>
+                                        </td>
+
+                                        <td>
+                                            <a href="#">Xiaomi Redmi Note 7 4/128GB</a>
+                                            <p class="text-muted">1x  / 224$</p>
+                                        </td>
+                                        
+                                        <td>
+                                            <a class="text-danger" data-basket-button="dropdown" href="#"><i class="fas fa-ban"></i></a>
+                                        </td>
+                                    </tr>
+
+                                    <!-- Single product item -->
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img class="img-fluid" src="img/product/product-2.jpg" /></a>
+                                        </td>
+
+                                        <td>
+                                            <a href="#">HP Omen 25 LED Gaming</a>
+                                            <p class="text-muted">1x  / 224$</p>
+                                        </td>
+                                        
+                                        <td>
+                                            <a class="text-danger" data-basket-button="dropdown" href="#"><i class="fas fa-ban"></i></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+                                <tfoot>
+                                    <tr>
+                                        <td>Subtotal</td>
+                                        <td class="text-right">
+                                            <strong>224</strong><span class="text-muted">$</span>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Total items</td>
+                                        <td class="text-right">
+                                            <strong>2</strong>
+                                        </td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+
+                            <!-- Dropdown actions buttons -->
+                            <div class="btn-toolbar">
+                                <div class="btn-group mr-2">
+                                    <a class="btn btn-danger" href="#">View cart</a>
+                                </div>
+
+                                <div class="btn-group mr-2">
+                                    <a class="btn btn-default" href="#">Checkout</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Case 2 : When we have items in our cart. Render this if basket is empty --->
+                        <div class="container d-none">
+                            <p>Your basket is empty</p>
+                        </div>
+                    </div>
                   </li>
                 </ul>
             </div>
